@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View, Platform } from 'react-native';
-import { Surface, Shape, Path, Group } from '../../react-native/Libraries/ART/ReactNativeART';
+import { View, Platform, ART } from 'react-native';
 import MetricsPath from 'art/metrics/path';
+
+const { Surface, Shape, Path, Group } = ART;
 
 export default class CircularProgress extends React.Component {
 
